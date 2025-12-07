@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/colors.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="./styles/donation.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <a href="../index.html">
+          <div class="logo">
+            <img src="../images/logo.jpg" alt="logo" />
+            <h1>Animal Shelter</h1>
+          </div>
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="./adoption.html">ADOPT</a></li>
+            <li><a href="./events.html">EVENTS</a></li>
+            <li><a class="page" href="./donation.html">DONATE</a></li>
+            <li><a href="./gallery.html">GALLERY</a></li>
+          </ul>
+        </nav>
+
+        <a class="contact-btn" href="../index.html#contact">Contact Us</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Intro Section -->
+      <section class="intro-section">
+        <div class="intro-group">
+          <div class="intro-item">
+            <h1>Why We Need You?</h1>
+            <p>
+              For every family ready to adopt, there are countless dogs, cats,
+              puppies, and kittens left behind, outnumbered and out of time.
+              Without immediate action, their future is bleak.
+            </p>
+          </div>
+
+          <div class="intro-item">
+            <h1>Your Donation Saves Lives</h1>
+            <p>
+              It costs over $420 per animal to cover expenses like veterinary
+              care, medications and food. Behind every life saved is an entire
+              network of dedicated people and supplies.
+            </p>
+          </div>
+        </div>
+
+        <h2>
+          You're Not Just Making a Donation - You're Giving an Animal a Future!
+        </h2>
+      </section>
+
+      <!-- Donation Section -->
+      <section class="donation-section">
+        <div class="donation-form">
+          <h1>Make a Donation Today!</h1>
+
+          <label for="amount">Donation Amount</label>
+          <div class="amounts">
+            <div>$25</div>
+            <div>$50</div>
+            <div>$100</div>
+            <div>$250</div>
+            <div>$500</div>
+            <div>
+              <span>$</span>
+              <input id="amount" type="text" placeholder="Customized Amount" />
+            </div>
+          </div>
+
+          <div class="choices">
+            <div>
+              <label for="frequency"
+                ><span>*</span> Select Donation Frequency</label
+              >
+              <select name="frequency" id="frequency">
+                <option value="choose">Choose a Frequency</option>
+                <option value="one time">One Time</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="annually">Annually</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="subject"><span>*</span> Select a Subject</label>
+              <select name="subject" id="subject">
+                <option value="choose">Choose a Subject</option>
+                <option value="medications">Medications</option>
+                <option value="food">Food</option>
+                <option value="new shelter">New Shelter</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="donate-btn">Donate</button>
+        </div>
+
+        <div class="donations">
+          <h2>We're Almost at Our Goal</h2>
+          <div class="donations-progress">
+            <div class="donation-card">
+              <img src="../images/donation1.jpg" alt="medications" />
+              <div class="donation-content">
+                <h3>Medications</h3>
+                <p class="current">$3,827</p>
+                <p class="goal">Goal: $10,000</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill medications-fill"></div>
+              </div>
+            </div>
+
+            <div class="donation-card">
+              <img src="../images/donation2.jpg" alt="food" />
+              <div class="donation-content">
+                <h3>Food</h3>
+                <p class="current">$6,193</p>
+                <p class="goal">Goal: $7,500</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill food-fill"></div>
+              </div>
+            </div>
+
+            <div class="donation-card">
+              <img src="../images/donation3.jpg" alt="shelter" />
+              <div class="donation-content">
+                <h3>New Shelter</h3>
+                <p class="current">$16,503</p>
+                <p class="goal">Goal: $25,000</p>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill shelter-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="../images/logo.jpg" alt="logo" />
+            <h3>Animal Shelter &copy; 2025</h3>
+          </div>
+
+          <div class="info-container">
+            <div class="schedule">
+              <h2>Operating Hours</h2>
+              <div class="schedule-group">
+                <div class="schedule-row">
+                  <span>Sunday</span><span>9am-6pm</span>
+                </div>
+                <div class="schedule-row">
+                  <span>Monday</span><span>9am-6pm</span>
+                </div>
+                <div class="schedule-row">
+                  <span>Tuesday</span><span>9am-6pm</span>
+                </div>
+                <div class="schedule-row">
+                  <span>Wednesday</span><span>10am-5pm</span>
+                </div>
+                <div class="schedule-row">
+                  <span>Thursday</span><span>10am-5pm</span>
+                </div>
+                <div class="schedule-row">
+                  <span>Friday</span><span>9am-2pm</span>
+                </div>
+                <div class="schedule-row">
+                  <span>Saturday</span><span>Closed</span>
+                </div>
+              </div>
+            </div>
+
+            <address>
+              Animal Shelter<br />
+              173 Haim Barlev, Tel Aviv<br />
+              ☎️ 052-9533513
+            </address>
+          </div>
+        </div>
+
+        <div class="icons">
+          <img src="../images/facebook.svg" alt="facebook" />
+          <img src="../images/twitter.svg" alt="twitter" />
+          <img src="../images/youtube.svg" alt="youtube" />
+          <img src="../images/instagram.svg" alt="instagram" />
+          <img src="../images/tiktok.svg" alt="tiktok" />
+        </div>
+
+        <p>Elina Tcarichanskaia ❤️</p>
+      </footer>
+    </main>
+  </body>
+</html>

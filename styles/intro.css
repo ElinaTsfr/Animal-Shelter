@@ -1,0 +1,49 @@
+.intro-section {
+  background-image: url(../images/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro-content {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  padding: 20px;
+  background: var(--bg-light-green);
+  border-radius: 10px;
+  width: 470px;
+}
+
+.intro-content h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.intro-content p {
+  font-size: 17px;
+}
+
+@media (max-width: 535px) {
+  .intro-section {
+    background-position: center;
+  }
+
+  .intro-content {
+    width: 300px;
+    left: 10%;
+    top: 50%;
+  }
+
+  .intro-content h2 {
+    font-size: 30px;
+  }
+
+  .intro-content p {
+    font-size: 13px;
+  }
+}

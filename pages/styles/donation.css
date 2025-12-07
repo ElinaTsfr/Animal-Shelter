@@ -1,0 +1,257 @@
+.intro-section {
+  height: 700px;
+  background: var(--bg-darker-blue);
+}
+
+.intro-section h2 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.intro-group {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 50px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid var(--blue-border);
+}
+
+.intro-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--bg-blue);
+}
+
+.intro-item h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid var(--blue-border);
+}
+
+.intro-item p {
+  font-size: 25px;
+  width: 345px;
+}
+
+.donation-section {
+  height: 800px;
+  background: var(--bg-light-green);
+  padding-top: 40px;
+}
+
+.donation-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 750px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background: var(--bg-dark-green);
+}
+
+.donation-form h1 {
+  margin-bottom: 20px;
+}
+
+.donation-form h3 {
+  margin-bottom: 10px;
+}
+
+.amounts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: auto;
+  gap: 15px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.amounts div {
+  text-align: center;
+  padding: 7px 15px;
+  background: var(--bg-light-green);
+  border-radius: 10px;
+}
+
+.amounts div:last-child {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.amounts input {
+  width: 90%;
+}
+
+.choices {
+  display: flex;
+  gap: 50px;
+}
+
+.choices span {
+  color: crimson;
+}
+
+.choices select {
+  border-radius: 10px;
+}
+
+.donate-btn {
+  margin-top: 20px;
+  width: 100%;
+  background: var(--bg-light-green);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.amounts div:hover,
+.donate-btn:hover {
+  background: var(--bg-darker-green);
+}
+
+.donations h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.donations-progress {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.donations-progress img {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: 3px solid black;
+  transition: 0.4s;
+}
+
+.donations-progress img:hover {
+  transform: translateY(-8px);
+}
+
+.donation-card {
+  background-color: darkolivegreen;
+  padding: 25px;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--green-border);
+  border-radius: 10px;
+}
+
+.donation-content h3 {
+  font-size: 20px;
+  color: var(--text-green);
+  margin: 7px 0;
+}
+
+.current {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-green);
+  margin-bottom: 7px;
+}
+
+.goal {
+  font-size: 17px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 15px;
+  background: var(--bg-light-green);
+  border-radius: 30px;
+  padding: 2px;
+  margin-top: 7px;
+}
+
+.progress-fill {
+  background: var(--bg-darker-green);
+  height: 10px;
+  border-radius: 30px;
+}
+
+.medications-fill {
+  width: 38.27%;
+}
+
+.food-fill {
+  width: 82.57%;
+}
+
+.shelter-fill {
+  width: 66.01%;
+}
+
+@media (max-width: 1215px) {
+  .donation-section {
+    height: 1600px;
+  }
+
+  .donations-progress {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .intro-section {
+    height: 1100px;
+  }
+
+  .intro-section h2 {
+    margin-top: 50px;
+  }
+
+  .intro-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .intro-item p {
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .donation-form {
+    width: 600px;
+  }
+}
+
+@media (max-width: 630px) {
+  .donation-section {
+    height: 1700px;
+  }
+
+  .donation-form {
+    width: 403px;
+  }
+
+  .donation-form h1 {
+    font-size: 30px;
+  }
+
+  .choices {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

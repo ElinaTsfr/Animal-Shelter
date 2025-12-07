@@ -1,0 +1,17 @@
+:root {
+  /* Text */
+  --text-green: rgb(7, 58, 12);
+  --text-blue: #5f7d97;
+
+  /* Backgrounds */
+  --bg-dark-green: #077408;
+  --bg-light-green: #64a85fb8;
+  --bg-darker-green: #034f04;
+  --bg-light-blue: #bacbd99f;
+  --bg-darker-blue: #8faac0;
+  --bg-blue: #7a97b0;
+
+  /* Borders */
+  --blue-border: #5f7487;
+  --green-border: #205121;
+}
