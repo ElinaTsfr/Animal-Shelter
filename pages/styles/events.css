@@ -1,6 +1,6 @@
 .events-section {
   height: 780px;
-  background-image: url(/HTML-CSS-Project/images/events.jpg);
+  background-image: url(../../images/events.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
